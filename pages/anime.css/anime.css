@@ -89,3 +89,13 @@ button:hover {
     height: 200px;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHgKzKUSIe1yv7WMQqzBsDHXGgaaz94kfcFIKMMtOk8CYKJRqf&s');
 }
+
+@media only screen and (max-width: 400px) {
+    body {
+       font-size: 20px;
+
+    }
+   .p-tag {
+    margin: 0px;
+   }
+}

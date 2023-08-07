@@ -131,3 +131,13 @@ footer {
     opacity: .4;
     font-weight: 200;
 }
+
+@media only screen and (max-width: 400px) {
+    body {
+       font-size: 20px;
+
+    }
+   .p-tag {
+    margin: 0px;
+   }
+}
