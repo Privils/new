@@ -1,3 +1,4 @@
+
 h1 {
     background-color: aquamarine;
     text-align: center;
@@ -10,13 +11,10 @@ h1 {
     margin-left: 200px;
     margin-right: 200px;
 } 
-.container {
-    background-color: black;
-    display: flex;
-    justify-content: space-around;
-    width: 100vw;
-    height: fit-content;
-}
+
+
+
+
 .music {
     background-color: aliceblue;
     margin-top: 5px;
@@ -24,40 +22,17 @@ h1 {
     box-shadow: 20px 10px 10px;
 }
 
-.music-container {
-    background-color: blue;
-    width: 100vw;
+.container {
     height: fit-content;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
    
 }  
-.artists {
-    background-color: seashell;
-    display: flex;
-    justify-content: space-around;
-    width: 100vw;
-    height: fit-content;
-}
-h2:hover {
-    background-color: chartreuse;
+.music-container:hover {
+    background-color: gray;
     opacity: 4px;
    transition: 0.5s ease-in-out ;
-   transform: scale(2);
-}
-h3:hover {
-    background-color: chartreuse;
-    opacity: 4px;
-   transition: 0.5s ease-in-out ;
-   transform: scale(2);
+ 
 }
 
-@media only screen and (max-width: 400px) {
-    body {
-       font-size: 20px;
-
-    }
-   .p-element {
-    margin: 0px;
-   }
-}
