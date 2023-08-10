@@ -5,18 +5,20 @@ h1 {
     text-align: center;
 }
 button:hover {
-    background-color: aqua;
+    background-color: rgb(240, 210, 210);
     transition: 1s ease;
 }
-.p-tag {
+.p-element {
+    margin: 10px;
+    padding: 10px;
     text-align: center;
-    font-size: 20px;
-    margin-left: 600px;
-    margin-right: 600px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .host {
     width: 100vw;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 10px;
 }
@@ -45,10 +47,7 @@ button:hover {
     height: 200px;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8XGjyjj8xF5gxqyMMOwDvxXbY7jnu8nEWSsccRgwQC4qVNAk&s');
 }
-.anime-host {
-    width: 100vw;
-    margin: 10px;
-}
+
 .bleach {
     width: 200px;
     height: 200px;
@@ -63,22 +62,12 @@ button:hover {
     height: 200px;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmQTjQ5MMaLSax_diBbpj7vAV1Cb0wl5EGZKD-NV6upxWZKKvL&s');
 }
-.anime-host {
-    width: 100vw;
-    display: flex;
-    justify-content: space-evenly;
-}
 .naruto {
     width: 200px;
     height: 200px;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXmpTYdxsndAkLO_inAZddD-BYiNNylXG9Q8eoAEyWBODi9dY&s');
 }
-.manga {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100vw;
-    margin: 10px;
-}
+
 .mob {
     width: 200px;
     height: 200px;
@@ -93,9 +82,12 @@ button:hover {
 @media only screen and (max-width: 400px) {
     body {
        font-size: 20px;
+       
 
     }
    .p-tag {
     margin: 0px;
+    display: flex;
+       flex-wrap: wrap;
    }
 }
