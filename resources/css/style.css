@@ -2,17 +2,56 @@
 * {
     margin: 0;
 }
-body {
+html, body {
     font-size: 20px;
+    margin: 0;
+}
+.nav ul {
+    margin: 0;
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .5);
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+.main-nav li {
+    padding: 0 5%;
+}
+.name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    color: white;
+}
+.main-header {
+    background-image: url('https://th.bing.com/th/id/R.9c52242b3bb4fabea16040f638c82e4d?rik=hbCLgDmD%2fk0J5A&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .4,);
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
 }
 .grid-container {
  display: grid; 
- height: 100vh;
+height: 100vh;
  width: 100vw;
  grid-template-columns: repeat(3, auto);
  grid-template-rows: 4fr 8fr 4fr 5fr 2fr 2fr;
  grid-gap: 10px;
 }
+
 
 .nav-content {
     grid-column-start: 1;
