@@ -1,6 +1,7 @@
 
 * {
     margin: 0;
+    padding: 0;
 }
 html, body {
     font-size: 20px;
@@ -39,9 +40,9 @@ html, body {
 .main-header {
     background-image: url('https://th.bing.com/th/id/R.9c52242b3bb4fabea16040f638c82e4d?rik=hbCLgDmD%2fk0J5A&pid=ImgRaw&r=0');
     background-size: cover;
-    background-color: rgba(0, 0, 0, .4,);
     background-blend-mode: multiply;
     padding-bottom: 30px;
+    width: 100%;
 }
 .grid-container {
  display: grid; 
@@ -172,13 +173,20 @@ footer {
     font-weight: 200;
 }
 
-@media only screen and (max-width: 400px) {
-    body {
-       font-size: 20px;
-
+@media (max-width: 700px) {
+   
+    .name {
+        padding-top: 10px;
+        font-size: 2em;
+        text-transform: capitalize;
     }
-   .p-tag {
-    margin: 0px;
-   }
-
+    .footer-bottom{
+      width: 100%;
+    }.main-header {
+        background-image: url('https://th.bing.com/th/id/R.9c52242b3bb4fabea16040f638c82e4d?rik=hbCLgDmD%2fk0J5A&pid=ImgRaw&r=0');
+        background-size: cover;
+        background-blend-mode: multiply;
+        padding-bottom: 30px;
+        width: 100%;
+    }
 }

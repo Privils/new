@@ -1,10 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 h1 {
-    background-color: aquamarine;
     text-align: center;
+    width: 100%;
 }
 p {
-    background-color: aquamarine;
-    margin: 10px;
+    margin-left: 50px;
     padding: 10px;
     text-align: center;
     font-size: 18px;
@@ -26,3 +29,47 @@ p {
     box-shadow: 10px 20px 5px;
     
 }
+button a{
+    background-color: none;
+    color: black;
+    text-decoration: none;
+
+}
+button{
+    border: 1px solid #333;
+    font-size: .8em;
+    background-color: white;
+}
+button a:hover{
+    font-size: 1.3em;
+    background-color: aliceblue;
+}
+
+@media (max-width: 530px) {
+    p {
+        text-align: center;
+        font-size: 16px;
+        font-weight: lighter;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    .flexbox-container1 {
+   
+        margin-top:5px ;
+        margin-bottom: 5px;
+        box-shadow: 10px 20px 5px;
+        width: fit-content;
+        position: relative;
+    }
+    h1{
+        font-size: 1.2em;
+        width: 100%;
+    }
+    .flexbox-container div p{
+        width: 150px;
+        font-size: 12px;
+
+    }
+} 

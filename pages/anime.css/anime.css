@@ -1,12 +1,19 @@
-body {
-    background-color: crimson;
-}
+
 h1 {
     text-align: center;
 }
 button:hover {
     background-color: rgb(240, 210, 210);
     transition: 1s ease;
+}
+button{
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    margin-left: 20px;
+}
+button a{
+    text-decoration: none;
+    color: black;
 }
 .p-element {
     margin: 10px;
@@ -77,17 +84,4 @@ button:hover {
     width: 200px;
     height: 200px;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHgKzKUSIe1yv7WMQqzBsDHXGgaaz94kfcFIKMMtOk8CYKJRqf&s');
-}
-
-@media only screen and (max-width: 400px) {
-    body {
-       font-size: 20px;
-       
-
-    }
-   .p-tag {
-    margin: 0px;
-    display: flex;
-       flex-wrap: wrap;
-   }
 }
