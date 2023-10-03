@@ -33,7 +33,7 @@ body {
     font-size: 4em;
     color: white;
 }
-.main-header {
+body {
     background-image: url('https://th.bing.com/th/id/R.9c52242b3bb4fabea16040f638c82e4d?rik=hbCLgDmD%2fk0J5A&pid=ImgRaw&r=0');
     background-size: cover;
     background-blend-mode: multiply;
@@ -41,7 +41,7 @@ body {
     background-position: center;
     padding-bottom: 30px;
     width: 100%;
-
+    font-weight: bold;
 }
 .grid-container {
  display: grid; 
@@ -64,20 +64,26 @@ height: 100vh;
     font-family: Times;
     width: 200px;
    margin: 10px;
-   box-shadow: 10px 12px 10px;
+   box-shadow: 10px 12px 10px black;
+   color: white;
+   font-size: 1.2em;
 }
 .item-2 {
    font-family: Times;
    width: 200px;
    margin: 10px;
-   box-shadow: 10px 12px 10px;
+   box-shadow: 10px 12px 10px black;
    padding: 10px;
+   color: white;
+   font-size: 1.2em;
 }
 .item-4 {
     width: 200px;
    margin: 10px;
    font-family: Times;
-   box-shadow: 10px 12px 10px;
+   box-shadow: 10px 12px 10px black;
+   color: white;
+   font-size: 1.2em;
 }
 footer {
     grid-column-start: 1;
@@ -114,12 +120,14 @@ footer {
    justify-content: center;
    flex-direction: column;
    text-align: center;
+   margin-bottom: 20px;
 }
 .footer-content h3{
     font-size: 1.8rem;
-    font-weight: 400;
+    font-weight: 300;
     text-transform: capitalize;
-    line-height: 3rem;
+    
+    line-height: 1rem;
 }
 .footer-content p{
     max-width: 500px;
@@ -153,6 +161,7 @@ footer {
     width: 100vw;
     padding: 20px 0;
     text-align: center;
+    height: 100%;
 }
 .footer-bottom p{
     font-size: 14px;

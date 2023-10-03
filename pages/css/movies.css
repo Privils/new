@@ -2,8 +2,16 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: rgb(255, 12, 60);
+body {
+    background-image: url('https://th.bing.com/th/id/R.9c52242b3bb4fabea16040f638c82e4d?rik=hbCLgDmD%2fk0J5A&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center;
+    padding-bottom: 30px;
+    width: 100%;
+   color: white;
+   font-weight: bold;
 }
 h1 {
     text-align: center;
@@ -33,7 +41,8 @@ p {
    
     margin-top:5px ;
     margin-bottom: 5px;
-    box-shadow: 10px 20px 5px;
+    box-shadow: 10px 20px 5px black;
+    border: 1px solid black;
     
 }
 button a{
@@ -51,30 +60,32 @@ button a:hover{
     font-size: 1.2em;
     background-color: transparent;
     border: 1px solid black;
-    box-shadow: -2px -2px  5px #333;
+    box-shadow: 10px 20px 5px black;
+    border: 1px solid black;
 }
 
 
 @media (max-width: 530px) {
     p {
         text-align: center;
-        font-size: 16px;
+        font-size: 1.2em;
         font-weight: lighter;
     }
     img{
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
+        margin-right: 10px;
     }
     .flexbox-container1 {
    
-        margin-top:5px ;
+        margin-top: 5px;
         margin-bottom: 5px;
-        box-shadow: 10px 20px 5px;
+        box-shadow: 10px 20px 5px black;
         width: fit-content;
         position: relative;
     }
     h1{
-        font-size: 1.2em;
+        font-size: 1.5em;
         width: 100%;
     }
     .flexbox-container div p{
@@ -83,6 +94,10 @@ button a:hover{
 
     }
     h2{
-        font-size: 12px;
+        font-size: 1.3em;
+    }
+    button{
+        border: 1px solid rgb(170, 107, 170);
+        background-color: rgba(175, 57, 175, .5);
     }
 } 

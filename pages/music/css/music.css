@@ -2,12 +2,23 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: crimson;
+body {
+    background-image: url('https://th.bing.com/th/id/R.9c52242b3bb4fabea16040f638c82e4d?rik=hbCLgDmD%2fk0J5A&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center;
+    padding-bottom: 30px;
+    width: 100%;
+   color: white;
+   font-weight: bold;
 }
 
 h1 {
+    font-size: 2rem;
      text-align: center;
+     margin-top: 10px;
+     margin-bottom: 10px;
 }
 .p-element {
     text-align: center;
@@ -18,9 +29,10 @@ h1 {
 
 
 .music {
+    border: 3px solid black;
     margin-top: 5px;
     margin-bottom: 5px;
-    box-shadow: 20px 10px 10px;
+    box-shadow: -10px -10px 10px black;
 }
 
 .container {
