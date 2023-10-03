@@ -109,31 +109,31 @@ button a{
                 width: 100vh;
              }
         .anime-world{
-            width: 150px;
+            width: 200px;
             margin-right: 15px;
             height: fit-content;
             font-size: x-small;
             font-weight: bold;
         }
         .dragon-ball{
-            width: 150px;
+            width: 200px;
             background-position: cover;
         }
         .vinland-saga{
-            width: 150px;
+            width: 200px;
             background-position: cover;
         }
         .my-hero-academia{
-            width: 150px;
+            width: 200px;
             background-position: cover;
         }
         .attack-on-titan{
-             width: 100px;
+             width: 200px;
             background-position: cover;
         }
        
         .anime-code{
-            width: 150px;
+            width: 200px;
             margin-right: 10px;
             height: fit-content;
             font-size: x-small;
@@ -141,22 +141,22 @@ button a{
         }
 
         .one-piece{ 
-             width: 150px;
+             width: 200px;
             background-position: cover;
         }
         .bleach{
-            width: 150px;
+            width: 200px;
             background-position: cover;
         }
-        .naruto{width: 150px;
+        .naruto{width: 200px;
             background-position: cover;
         }
         .mob{ 
-            width: 150px;
+            width: 200px;
             background-position: cover;
         }
         .hunter{  
-            width: 150px;
+            width: 200px;
             background-position: cover;
         }
       }
