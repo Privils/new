@@ -2,9 +2,16 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(255, 12, 60);
+}
 h1 {
     text-align: center;
     width: 100%;
+}
+h2{
+    font-size: 1.2m;
+    font-weight: lighter;
 }
 p {
     margin-left: 50px;
@@ -38,12 +45,15 @@ button a{
 button{
     border: 1px solid #333;
     font-size: .8em;
-    background-color: white;
+    background-color: transparent;
 }
 button a:hover{
-    font-size: 1.3em;
-    background-color: aliceblue;
+    font-size: 1.2em;
+    background-color: transparent;
+    border: 1px solid black;
+    box-shadow: -2px -2px  5px #333;
 }
+
 
 @media (max-width: 530px) {
     p {
@@ -71,5 +81,8 @@ button a:hover{
         width: 150px;
         font-size: 12px;
 
+    }
+    h2{
+        font-size: 12px;
     }
 } 
